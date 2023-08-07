@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import HeroSection from "./Component/HeroSection";
+import Home from "./Component/Home";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* I am importing the components from the Home component, because i imported all the components into the Home component */}
+      <Home/>
     </div>
   );
 }
